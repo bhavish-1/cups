@@ -12,7 +12,7 @@ LogLevel @CUPS_LOG_LEVEL@
 MaxLogSize @CUPS_MAX_LOG_SIZE@
 
 # Default error policy for printers
-ErrorPolicy @CUPS_ERROR_POLICY@
+ErrorPolicy abort-job
 
 # Only listen for connections from the local machine.
 Listen localhost:@DEFAULT_IPP_PORT@
